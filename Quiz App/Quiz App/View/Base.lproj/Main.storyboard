@@ -38,6 +38,9 @@
                                         <rect key="frame" x="0.0" y="870.5" width="768" height="153.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="False"/>
+                                        <connections>
+                                            <action selector="buttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zZR-GJ-oDs"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>

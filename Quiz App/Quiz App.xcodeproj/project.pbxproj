@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70020452744D10800A36FF3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70020442744D10800A36FF3 /* Question.swift */; };
 		A7626723272A0E98004307F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7626722272A0E98004307F1 /* AppDelegate.swift */; };
 		A7626725272A0E98004307F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7626724272A0E98004307F1 /* SceneDelegate.swift */; };
 		A7626727272A0E98004307F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7626726272A0E98004307F1 /* ViewController.swift */; };
 		A762672A272A0E98004307F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7626728272A0E98004307F1 /* Main.storyboard */; };
 		A762672C272A0E99004307F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A762672B272A0E99004307F1 /* Assets.xcassets */; };
 		A762672F272A0E99004307F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A762672D272A0E99004307F1 /* LaunchScreen.storyboard */; };
+		A7963A7027461DED009625CC /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7963A6F27461DED009625CC /* QuizBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A70020442744D10800A36FF3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		A762671F272A0E98004307F1 /* Quiz App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7626722272A0E98004307F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7626724272A0E98004307F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		A762672B272A0E99004307F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A762672E272A0E99004307F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7626730272A0E99004307F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7963A6F27461DED009625CC /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,30 @@
 				A7626722272A0E98004307F1 /* AppDelegate.swift */,
 				A7626724272A0E98004307F1 /* SceneDelegate.swift */,
 				A7626726272A0E98004307F1 /* ViewController.swift */,
-				A7626728272A0E98004307F1 /* Main.storyboard */,
+				A7963A6E27461D07009625CC /* Model */,
+				A7963A6D27461CAE009625CC /* View */,
 				A762672B272A0E99004307F1 /* Assets.xcassets */,
 				A762672D272A0E99004307F1 /* LaunchScreen.storyboard */,
 				A7626730272A0E99004307F1 /* Info.plist */,
 			);
 			path = "Quiz App";
+			sourceTree = "<group>";
+		};
+		A7963A6D27461CAE009625CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7626728272A0E98004307F1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7963A6E27461D07009625CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A70020442744D10800A36FF3 /* Question.swift */,
+				A7963A6F27461DED009625CC /* QuizBrain.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7963A7027461DED009625CC /* QuizBrain.swift in Sources */,
 				A7626727272A0E98004307F1 /* ViewController.swift in Sources */,
+				A70020452744D10800A36FF3 /* Question.swift in Sources */,
 				A7626723272A0E98004307F1 /* AppDelegate.swift in Sources */,
 				A7626725272A0E98004307F1 /* SceneDelegate.swift in Sources */,
 			);
